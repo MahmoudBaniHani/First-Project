@@ -1,7 +1,7 @@
 puts 'hello'
 a=10;
 b=20;
-puts a+b+20;
+puts a+b;
 
 
 $globel_verbiles = 5 ;
