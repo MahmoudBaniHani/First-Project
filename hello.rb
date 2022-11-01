@@ -1,5 +1,5 @@
 puts 'hello'
-a=10;
+a=20;
 b=20;
 puts a+b + 20;
 
