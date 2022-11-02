@@ -15,7 +15,11 @@ while count <3
  			amount_in = gets.chomp()
  			if (amount_in.to_i <= amount and amount_in.to_i > 0)
  				total_amount = (amount - amount_in.to_i)
- 				puts "Thank you , the amount is out "+ amount_in +"  and total amount = " + total_amount.to_s
+ 				puts "****************************"
+ 				puts "your no : " + amount_in
+ 				puts "Total amount : " + total_amount.to_s
+ 				puts "Thank you  for you"
+ 				puts "****************************"
  				break
  			else
  				puts "the amout not valid " + count2.to_s + " the rest of 3"
@@ -28,4 +32,4 @@ while count <3
  		puts "Not valid password , Please try again ! " + count.to_s + " the rest of 3"
  	end
  end
-puts "**************************thank you Please try again**************************"
+ puts "**************************thank you Please try again**************************"
