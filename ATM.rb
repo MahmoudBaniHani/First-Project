@@ -28,4 +28,4 @@ while count <3
  		puts "Not valid password , Please try again ! " + count.to_s + " the rest of 3"
  	end
  end
-puts "thank you Please try again"
+puts "**************************thank you Please try again**************************"
