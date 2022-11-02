@@ -24,3 +24,5 @@ end;
 
 person1 = Person.new("mahmoud",26);
 person1.display_details();
+person1 = Person.new("mahmoud",26);
+person1.display_details();
